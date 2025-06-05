@@ -17,6 +17,18 @@ const featuredListings = [
     verified: true,
   },
   {
+    id: 1,
+    title: "Premium E-commerce Store",
+    description: "Established dropshipping business with 50K+ monthly visitors",
+    price: "$125,000",
+    revenue: "$15K/mo",
+    profit: "$8K/mo",
+    rating: 4.8,
+    category: "E-commerce",
+    image: "/placeholder.svg",
+    verified: true,
+  },
+  {
     id: 2,
     title: "SaaS Analytics Platform",
     description: "B2B analytics tool with 200+ paying subscribers",
