@@ -1,37 +1,46 @@
+import NotificationArea from "@/components/NotificationArea";
+import AnnouncementBanner from "@/components/AnnouncementBanner";
+import Header from "@/components/Header";
+import HeroSection from "@/components/HeroSection";
+import ActionSection from "@/components/ActionSection";
+import FeaturedListingsSection from "@/components/FeaturedListingsSection";
+import BudgetFriendlySection from "@/components/BudgetFriendlySection";
+import CuratedCollectionsSection from "@/components/CuratedCollectionsSection";
+import DomainSection from "@/components/DomainSection";
+import Footer from "@/components/Footer";
+
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-100 to-slate-200">
-      <div className="text-center">
-        {/* TODO: replace everything here with the actual app! */}
-        <h1 className="text-2xl font-semibold text-slate-800 flex items-center justify-center gap-3">
-          <svg
-            className="animate-spin h-8 w-8 text-slate-400"
-            viewBox="0 0 50 50"
-          >
-            <circle
-              className="opacity-30"
-              cx="25"
-              cy="25"
-              r="20"
-              stroke="currentColor"
-              strokeWidth="5"
-              fill="none"
-            />
-            <circle
-              className="text-slate-600"
-              cx="25"
-              cy="25"
-              r="20"
-              stroke="currentColor"
-              strokeWidth="5"
-              fill="none"
-              strokeDasharray="100"
-              strokeDashoffset="75"
-            />
-          </svg>
-          Generating your app...
-        </h1>
-      </div>
+    <div className="min-h-screen">
+      {/* Fixed notification area in top-right corner */}
+      <NotificationArea />
+
+      {/* Blue announcement banner with merger news and Learn More button */}
+      <AnnouncementBanner />
+
+      {/* Dark navy header with logo, navigation, language selector, and auth buttons */}
+      <Header />
+
+      {/* Dark navy hero section with large heading, search bar, trending tags, and stats */}
+      <HeroSection />
+
+      {/* Light gray section with "What would you like to do?" heading and two main action cards */}
+      <ActionSection />
+
+      {/* White section showcasing top online business listings in a 3-column grid */}
+      <FeaturedListingsSection />
+
+      {/* Light gray section for budget-friendly options under $2,500 */}
+      <BudgetFriendlySection />
+
+      {/* White section with curated collections in colorful gradient cards */}
+      <CuratedCollectionsSection />
+
+      {/* Light gray section featuring premium domain names in 3 categories */}
+      <DomainSection />
+
+      {/* Dark navy footer with newsletter signup, links, and social media */}
+      <Footer />
     </div>
   );
 };
