@@ -32,7 +32,7 @@ export default function Footer() {
         </div>
 
         {/* Main Footer Content */}
-        <div className="grid md:grid-cols-4 gap-8 mb-12">
+        <div className="grid md:grid-cols-3 gap-8 mb-12">
           {/* Company */}
           <div>
             <h4 className="text-lg font-semibold mb-4">BusinessHub</h4>
@@ -109,13 +109,13 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Sell */}
+          {/* Resources */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Sell</h4>
+            <h4 className="text-lg font-semibold mb-4">Resources</h4>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-white/70 hover:text-white text-sm">
-                  List Your Business
+                  Buyer Guide
                 </a>
               </li>
               <li>
@@ -125,7 +125,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#" className="text-white/70 hover:text-white text-sm">
-                  Seller Resources
+                  Market Insights
                 </a>
               </li>
               <li>
@@ -135,12 +135,11 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#" className="text-white/70 hover:text-white text-sm">
-                  Seller Support
+                  Investment Tips
                 </a>
               </li>
             </ul>
           </div>
-
           {/* Support */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Support</h4>

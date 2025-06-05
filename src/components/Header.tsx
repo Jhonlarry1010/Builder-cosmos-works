@@ -46,11 +46,6 @@ export default function Header() {
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuLink className="px-4 py-2 hover:bg-white/10 rounded">
-                  Sell
-                </NavigationMenuLink>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
-                <NavigationMenuLink className="px-4 py-2 hover:bg-white/10 rounded">
                   Resources
                 </NavigationMenuLink>
               </NavigationMenuItem>
